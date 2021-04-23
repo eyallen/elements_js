@@ -8,7 +8,7 @@ function num_bits(x) {
     return count;
 }
 
-let number = 0b101101;
+let number = 0b1011010110110;
 let result = num_bits(number);
 
 console.log(result);
