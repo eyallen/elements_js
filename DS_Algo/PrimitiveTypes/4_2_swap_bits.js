@@ -3,7 +3,7 @@ import { log_binary } from '../Helpers/logging.js'
 function swap_bits(number, i, j) {
     // Bounds check here.
 
-    // First comare the ith and jth position, and just return if they are the same.
+    // First compare the ith and jth position, and just return if they are the same.
     let ith = number >> i & 1;
     let jth = number >> j & 1;
 
